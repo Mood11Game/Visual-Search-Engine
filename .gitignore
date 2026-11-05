@@ -1,0 +1,14 @@
+#MasOs
+.DS_Store
+
+#file and dir 
+/.venv
+__pycache__
+pictures/
+*.csv
+*.index
+*.pth
+*.onnx
+*.data
+
+
