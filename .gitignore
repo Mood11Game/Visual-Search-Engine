@@ -1,14 +1,44 @@
-#MasOs
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-#file and dir 
-/.venv
-__pycache__
-pictures/
-*.csv
-*.index
+# IDE and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Heavy ML Artifacts, Weights & Vector Indexes
 *.pth
+*.pt
 *.onnx
-*.data
+*.onnx.data
+*.index
 
+# Heavy Data & Datasets
+*.csv
+*.parquet
+*.arrow
+catalog_meta.csv
 
+# Test picture folders (optional)
+pictures/
